@@ -1,0 +1,9 @@
+{% extends "base.html" %}{% block content %}
+<div class="card"><h2>Symptom Checker (Machine Learning)</h2>
+<p>Describe your symptoms in a sentence. A TF-IDF + Logistic Regression model suggests the closest matching problems.</p>
+<form method="post"><textarea name="symptoms" rows="3" placeholder="e.g. I have a runny nose and sneezing since yesterday" required>{{ text }}</textarea><button>Check</button></form></div>
+{% if emergency %}<div class="err">{{ msg }}</div>{% endif %}
+{% if results %}<div class="card"><h3>Closest matches</h3>
+{% for p, pct in results %}<div class="gap"><a href="{{ url_for('problem', pid=p.id) }}"><b>{{ p.name }}</b></a> – {{ pct }}% match<div class="bar"><i style="width:{{ pct }}%"></i></div></div>{% endfor %}
+<div class="warn">This is a machine-learning estimate from keywords, not a diagnosis. See a doctor if symptoms are serious or persist.</div></div>{% endif %}
+{% endblock %}

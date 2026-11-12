@@ -1,0 +1,14 @@
+{% extends "base.html" %}{% block title %}{{ p.name }}{% endblock %}{% block content %}
+<a class="back" href="{{ url_for('problems') }}">← All problems</a>
+<div class="card"><h2>{{ p.name }}</h2>
+<h3>Causes</h3><div>{{ p.causes }}</div>
+<h3>What to avoid</h3><div>{{ p.avoid }}</div>
+<h3>What to eat</h3><div>{{ p.eat }}</div>
+<h3>How to treat it</h3><div>{{ p.treat }}</div>
+<h3>Medicine guidance for your age ({{ u.age }} years – {{ g.label }})</h3>
+{% if g.kid %}<div>💊 Please consult a paediatrician before giving any medicine.</div>
+{% else %}<div>💊 Emergency option: <b>{{ p.medicine }}</b></div>{% endif %}
+<div class="gap">{{ g.med }}</div>
+<h3>Lifestyle changes for you</h3><div>{{ p.lifestyle }}</div><div class="gap">{{ g.life }}</div>
+<div class="warn">⚠️ Do not take any medicine without a doctor’s prescription. This is information only. If symptoms get worse, see a doctor immediately.</div></div>
+{% endblock %}

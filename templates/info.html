@@ -1,0 +1,8 @@
+{% extends "base.html" %}{% block content %}
+<div class="card"><h2>Additional info</h2>
+<form method="post"><label>Age (years)</label><input name="age" type="number" min="1" max="120" value="{{ u.age or '' }}" required>
+<label>Weight (kg)</label><input name="weight" type="number" step="0.1" min="1" max="300" value="{{ u.weight or '' }}" required>
+<label>Height (cm)</label><input name="height" type="number" step="0.1" min="50" max="250" value="{{ u.height or '' }}" required>
+<label>Sleeping hours (per day)</label><input name="sleep" type="number" step="0.5" min="0" max="24" value="{{ u.sleep or '' }}" required>
+<button>View problems</button></form></div>
+{% endblock %}

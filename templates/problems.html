@@ -1,0 +1,10 @@
+{% extends "base.html" %}{% block content %}
+<h2>What problem do you have?</h2>
+<div class="tip">{% for t in tips %}{{ t }}<br>{% endfor %}<b>Lifestyle for your age ({{ u.age }} years):</b> {{ g.life }}</div>
+<input id="q" placeholder="Search among {{ problems|length }} problems…" autocomplete="off">
+<div class="grid" id="list">{% for p in problems %}<a class="p" href="{{ url_for('problem', pid=p.id) }}">{{ p.name }}</a>{% endfor %}</div>
+<script>
+document.getElementById("q").addEventListener("input",function(){var v=this.value.toLowerCase();
+document.querySelectorAll("#list .p").forEach(function(a){a.style.display=a.textContent.toLowerCase().includes(v)?"":"none"})});
+</script>
+{% endblock %}

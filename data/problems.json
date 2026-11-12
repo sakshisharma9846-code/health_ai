@@ -1,0 +1,826 @@
+[
+ {
+  "name": "Headache / Migraine",
+  "causes": "Stress, lack of sleep, dehydration, long screen time, skipped meals, bright light or loud noise. Migraines can also be triggered by hormones and certain foods.",
+  "avoid": "Too much tea/coffee, cheese, chocolate, processed food, bright light, going hungry, staying up late.",
+  "eat": "Water, coconut water, banana, almonds, ginger-turmeric tea, regular meals.",
+  "treat": "Rest in a quiet, dark room, apply a cold or warm compress, stay hydrated and sleep 7–8 hours.",
+  "medicine": "Paracetamol 500 mg",
+  "lifestyle": "Keep a fixed sleep time, never skip meals, drink water through the day, take screen breaks every 30 minutes and note your triggers in a diary.",
+  "id": 1,
+  "keywords": [
+   "head pain",
+   "throbbing headache",
+   "sensitive to light",
+   "pain behind eyes",
+   "nausea with headache",
+   "one side head pain"
+  ]
+ },
+ {
+  "name": "Fever",
+  "causes": "Viral or bacterial infection, flu, typhoid, dengue/malaria in season, throat or urinary infection.",
+  "avoid": "Cold or oily food, overexertion, heavy blankets, going without fluids.",
+  "eat": "Khichdi, porridge, soups, coconut water, ORS, seasonal fruits and plenty of water.",
+  "treat": "Rest, wear light clothes, sponge with lukewarm water. See a doctor if fever lasts more than 3 days or goes above 103°F.",
+  "medicine": "Paracetamol 500 mg",
+  "lifestyle": "Wash hands often, keep your home ventilated, avoid mosquito bites (use nets) and drink only clean, boiled or filtered water.",
+  "id": 2,
+  "keywords": [
+   "high temperature",
+   "body feels hot",
+   "chills",
+   "shivering",
+   "sweating with fever",
+   "feeling feverish"
+  ]
+ },
+ {
+  "name": "Cough",
+  "causes": "Cold or flu, dust or smoke allergy, asthma, acid reflux, infection.",
+  "avoid": "Cold water, ice cream, fried food, smoke, dust.",
+  "eat": "Honey with ginger, tulsi tea, turmeric milk, warm water, soups.",
+  "treat": "Gargle with warm water, steam inhalation, honey. See a doctor if the cough lasts over 2 weeks or you cough up blood.",
+  "medicine": "No strong medicine; cough syrup only on a doctor’s advice",
+  "lifestyle": "Avoid smoke and dust (wear a mask), stay away from smokers, keep your room clean and avoid cold drinks.",
+  "id": 3,
+  "keywords": [
+   "dry cough",
+   "cough with phlegm",
+   "coughing at night",
+   "chest irritation",
+   "persistent cough"
+  ]
+ },
+ {
+  "name": "Common Cold",
+  "causes": "Virus (rhinovirus), change of season, spread of infection in crowds, low immunity.",
+  "avoid": "Cold drinks, direct AC air, curd at night.",
+  "eat": "Vitamin C (lemon, amla, orange), warm soup, herbal kadha, turmeric milk.",
+  "treat": "Steam inhalation, saline nasal rinse, rest and hand washing. It usually clears in 5–7 days.",
+  "medicine": "Cetirizine 10 mg",
+  "lifestyle": "Sleep well, exercise regularly, get sunlight for vitamin D, wash hands often and avoid crowded places during flu season.",
+  "id": 4,
+  "keywords": [
+   "runny nose",
+   "sneezing",
+   "mild cold",
+   "watery eyes and sneezing",
+   "cold and sneezing"
+  ]
+ },
+ {
+  "name": "Sore Throat",
+  "causes": "Viral infection, strep bacteria, cold food, acid reflux, too much talking.",
+  "avoid": "Cold, sour or fried food, cold drinks, smoke.",
+  "eat": "Warm water, honey-ginger, turmeric milk, soups, soft food.",
+  "treat": "Gargle with warm salt water 3–4 times a day, rest, lozenges. See a doctor if it lasts over 5 days or swallowing is difficult.",
+  "medicine": "Throat lozenges (like Strepsils)",
+  "lifestyle": "Avoid shouting or loud talking, quit smoking, drink warm fluids and avoid sudden cold-hot changes.",
+  "id": 5,
+  "keywords": [
+   "throat pain",
+   "pain while swallowing",
+   "scratchy throat",
+   "hoarse voice",
+   "swollen throat"
+  ]
+ },
+ {
+  "name": "Acidity",
+  "causes": "Spicy or oily food, skipped meals, tea/coffee, stress, lying down right after eating.",
+  "avoid": "Spicy and fried food, tea, coffee, cold drinks, late-night meals.",
+  "eat": "Banana, cold milk, fennel seeds, curd or buttermilk, oatmeal, coconut water.",
+  "treat": "Eat small meals, wait 2–3 hours before lying down, chew fennel seeds, sleep with your head raised.",
+  "medicine": "Antacid gel or syrup (like Digene/Gelusil)",
+  "lifestyle": "Eat at fixed times, have dinner at least 2–3 hours before sleep, avoid overeating and keep your weight healthy.",
+  "id": 6,
+  "keywords": [
+   "burning in chest",
+   "sour taste in mouth",
+   "heartburn",
+   "burping",
+   "burning in stomach after eating"
+  ]
+ },
+ {
+  "name": "Constipation",
+  "causes": "Low fibre, low water intake, lack of movement, stress, side effects of medicines.",
+  "avoid": "Refined flour (maida), junk food, too much tea, too much cheese.",
+  "eat": "Fibre: vegetables, oats, papaya, apple, lentils with husk, 2.5–3 litres of water.",
+  "treat": "Warm lemon water in the morning, 30 minutes of walking daily, fixed toilet time. See a doctor if it lasts over a week.",
+  "medicine": "Isabgol (psyllium husk)",
+  "lifestyle": "Add fibre to every meal, drink enough water, walk daily and do not ignore the urge to go to the toilet.",
+  "id": 7,
+  "keywords": [
+   "hard stools",
+   "difficulty passing stool",
+   "no bowel movement",
+   "straining in toilet",
+   "not able to pass motion"
+  ]
+ },
+ {
+  "name": "Diarrhoea",
+  "causes": "Contaminated food or water, stomach infection, food poisoning, some medicines.",
+  "avoid": "Fried and spicy food, dairy, outside food, raw salad.",
+  "eat": "ORS, curd rice, banana, khichdi, salted-sweet lemon water, coconut water.",
+  "treat": "Prevent dehydration by sipping ORS often. See a doctor right away if there is blood, high fever, or it lasts over 2 days.",
+  "medicine": "ORS (oral rehydration solution)",
+  "lifestyle": "Wash hands before eating, avoid street food and unclean water, store food properly and eat fresh meals.",
+  "id": 8,
+  "keywords": [
+   "loose motions",
+   "watery stools",
+   "frequent toilet",
+   "stomach cramps and loose stools"
+  ]
+ },
+ {
+  "name": "Stomach Pain",
+  "causes": "Gas, acidity, constipation, infection, period cramps, food intolerance, sometimes ulcer or stones.",
+  "avoid": "Fried and spicy food, cold drinks, too much tea, outside food.",
+  "eat": "Light food: khichdi, curd, banana, cumin or carom seed water, mint tea.",
+  "treat": "Warm compress on the belly, rest, carom seeds with black salt. See a doctor for severe or persistent pain, vomiting or fever.",
+  "medicine": "Only after a doctor’s advice (like Hyoscine/Drotaverine)",
+  "lifestyle": "Eat slowly in small portions, avoid overeating, manage stress and avoid outside oily food.",
+  "id": 9,
+  "keywords": [
+   "pain in abdomen",
+   "stomach cramps",
+   "belly ache",
+   "stomach pain after eating"
+  ]
+ },
+ {
+  "name": "Toothache",
+  "causes": "Cavity, gum infection, broken tooth, sensitivity, wisdom tooth.",
+  "avoid": "Too much sugar, very hot or cold items, sticky food.",
+  "eat": "Soft food, curd, porridge, water. Brush twice a day.",
+  "treat": "Rinse with salt water, clove oil on cotton, cold compress. Do see a dentist, as tooth pain does not go away on its own.",
+  "medicine": "Paracetamol 500 mg (until you see a dentist)",
+  "lifestyle": "Brush twice daily, floss, rinse after meals, cut down sugar and visit a dentist every 6 months.",
+  "id": 10,
+  "keywords": [
+   "tooth pain",
+   "pain while chewing",
+   "swollen gums",
+   "sensitive tooth",
+   "jaw pain"
+  ]
+ },
+ {
+  "name": "Skin Itching",
+  "causes": "Dry skin, allergy, fungal infection, sweat, reaction to clothes or soap, scabies.",
+  "avoid": "Harsh soaps, hot showers, scratching, tight synthetic clothes.",
+  "eat": "Plenty of water, omega-3 (walnuts, flaxseed), fruits and vegetables.",
+  "treat": "Moisturiser, calamine lotion, loose cotton clothes, good hygiene. See a doctor if rash appears or it lasts over a week.",
+  "medicine": "Cetirizine 10 mg or calamine lotion",
+  "lifestyle": "Use mild soap, moisturise daily after bathing, wash clothes with gentle detergent and wear cotton.",
+  "id": 11,
+  "keywords": [
+   "itchy skin",
+   "skin rash",
+   "scratching skin",
+   "red itchy patches"
+  ]
+ },
+ {
+  "name": "Acne",
+  "causes": "Hormonal changes, oily skin, clogged pores, stress, dirty hands or pillow covers, some cosmetics.",
+  "avoid": "Popping pimples, oily creams or makeup, too much sugar and junk food, dairy for some people.",
+  "eat": "Water, vegetables, fruits, low-sugar food, zinc (pumpkin seeds).",
+  "treat": "Gentle face wash twice a day, non-comedogenic moisturiser, sunscreen, avoid touching your face. See a dermatologist if severe.",
+  "medicine": "Benzoyl peroxide 2.5% gel",
+  "lifestyle": "Wash pillow covers weekly, keep hair off your face, sleep well and reduce stress and sugar.",
+  "id": 12,
+  "keywords": [
+   "pimples",
+   "pimples on face",
+   "blackheads",
+   "oily skin with spots",
+   "whiteheads"
+  ]
+ },
+ {
+  "name": "Hair Fall",
+  "causes": "Lack of iron, protein or vitamin D, stress, hormonal changes (thyroid, PCOS), dandruff, heat styling.",
+  "avoid": "Crash diets, very hot water, tight hairstyles, harsh chemical products.",
+  "eat": "Eggs, lentils, paneer, spinach, chickpeas, walnuts, amla.",
+  "treat": "Gentle oil massage, mild shampoo, 7–8 hours of sleep. For heavy hair fall, get blood tests (iron, thyroid, vitamin D).",
+  "medicine": "No emergency medicine; treatment only through a dermatologist",
+  "lifestyle": "Eat enough protein and iron, avoid heat styling, do not tie hair tightly and manage stress.",
+  "id": 13,
+  "keywords": [
+   "hair falling",
+   "hair thinning",
+   "hair on pillow",
+   "bald patches",
+   "losing hair"
+  ]
+ },
+ {
+  "name": "Back Pain",
+  "causes": "Poor posture, long sitting hours, weak muscles, lifting heavy objects, disc problems.",
+  "avoid": "Slouching, heavy lifting, sitting too long, very soft mattress.",
+  "eat": "Calcium and vitamin D (milk, curd, sunlight), protein, turmeric milk.",
+  "treat": "Warm compress, gentle stretching, stand up every 30–40 minutes, keep your back straight. See a doctor right away if there is leg numbness or weakness.",
+  "medicine": "Diclofenac gel (topical) or Paracetamol 500 mg",
+  "lifestyle": "Fix your sitting posture, use a chair with back support, exercise to strengthen your core and lift with your knees, not your back.",
+  "id": 14,
+  "keywords": [
+   "lower back pain",
+   "pain in spine",
+   "stiff back",
+   "back hurts when sitting"
+  ]
+ },
+ {
+  "name": "Joint Pain",
+  "causes": "Arthritis, high uric acid, low vitamin D or calcium, injury, excess weight, ageing.",
+  "avoid": "Weight gain, too much red meat, sugar, sitting too long.",
+  "eat": "Milk, curd, turmeric, fenugreek, walnuts, spinach, omega-3, sunlight.",
+  "treat": "Gentle exercise or yoga, warm compress, weight control. See a doctor if there is swelling, redness or fever.",
+  "medicine": "Diclofenac gel (topical)",
+  "lifestyle": "Stay active with low-impact exercise (walking, swimming, yoga), keep a healthy weight and get morning sunlight.",
+  "id": 15,
+  "keywords": [
+   "knee pain",
+   "joint stiffness",
+   "swollen joints",
+   "pain in joints",
+   "elbow pain"
+  ]
+ },
+ {
+  "name": "Fatigue",
+  "causes": "Poor sleep, anaemia, low vitamin B12 or D, thyroid issues, stress, poor diet or hydration, diabetes.",
+  "avoid": "Staying up late, too much caffeine, junk food, skipping breakfast.",
+  "eat": "Iron-rich food (spinach, beetroot, jaggery and chickpeas), fruits, bananas, dry fruits, water.",
+  "treat": "Keep a fixed sleep schedule, get sunlight, walk daily. Get blood tests done if it lasts over 2 weeks.",
+  "medicine": "No emergency medicine; get tested first",
+  "lifestyle": "Keep a regular routine, eat balanced meals, drink water, exercise lightly daily and cut down caffeine.",
+  "id": 16,
+  "keywords": [
+   "feeling tired",
+   "always tired",
+   "no energy",
+   "weakness",
+   "exhausted all day"
+  ]
+ },
+ {
+  "name": "Sleep Problems",
+  "causes": "Stress, phone use at night, caffeine, irregular timings, anxiety, noise or light.",
+  "avoid": "Phone before bed, tea/coffee in the evening, heavy dinner.",
+  "eat": "Warm milk, banana, almonds, chamomile tea. Keep dinner light.",
+  "treat": "Sleep and wake at the same time daily, keep the room dark and cool, switch off screens an hour before bed, practise deep breathing.",
+  "medicine": "None; never take sleeping pills without a doctor",
+  "lifestyle": "Follow a fixed bedtime routine, exercise in the day, avoid naps late in the afternoon and keep your phone away from the bed.",
+  "id": 17,
+  "keywords": [
+   "cannot sleep",
+   "trouble falling asleep",
+   "waking up at night",
+   "insomnia",
+   "poor sleep"
+  ]
+ },
+ {
+  "name": "Stress",
+  "causes": "Study or work pressure, relationships, money worries, lack of sleep, loneliness.",
+  "avoid": "Too much caffeine, intoxicants, overthinking alone, excess social media.",
+  "eat": "Fruits, dry fruits, green tea, omega-3 foods, regular meals.",
+  "treat": "Deep breathing, meditation, walks, talking to friends or family, hobbies. See a counsellor or doctor if sadness or anxiety persists.",
+  "medicine": "None; medicines only on a doctor’s advice",
+  "lifestyle": "Plan your day, take breaks, exercise, spend time with loved ones and limit news and social media.",
+  "id": 18,
+  "keywords": [
+   "feeling stressed",
+   "tension",
+   "overwhelmed",
+   "mental pressure",
+   "exam pressure"
+  ]
+ },
+ {
+  "name": "Allergy",
+  "causes": "Immune reaction to dust, pollen, pet hair, certain foods, medicines or cosmetics.",
+  "avoid": "Your triggers, dust, smoke, sudden hot-cold changes.",
+  "eat": "Vitamin C, turmeric, ginger, vegetables. Avoid trigger foods.",
+  "treat": "Identify and avoid triggers, keep your home clean, steam inhalation. Go to a hospital immediately if breathing is difficult or the face or lips swell.",
+  "medicine": "Cetirizine 10 mg",
+  "lifestyle": "Wash bedding weekly in hot water, keep windows closed in pollen season and shower after being outdoors.",
+  "id": 19,
+  "keywords": [
+   "allergic reaction",
+   "sneezing from dust",
+   "itchy eyes from pollen",
+   "hives",
+   "skin reaction to food"
+  ]
+ },
+ {
+  "name": "PCOD / PCOS",
+  "causes": "Hormonal imbalance, insulin resistance, genetics, stress, low activity, weight gain.",
+  "avoid": "Refined flour, sugar, cold drinks, packaged or junk food, crash diets.",
+  "eat": "Fibre and protein: vegetables, lentils, eggs, oats, whole grains, nuts, cinnamon, fenugreek.",
+  "treat": "30–45 minutes of exercise or yoga daily, weight control, better sleep and less stress. Treatment and tests by a gynaecologist are essential.",
+  "medicine": "No emergency medicine; only as advised by a gynaecologist",
+  "lifestyle": "Keep a regular sleep and meal routine, exercise most days, aim for a healthy weight and get regular check-ups.",
+  "id": 20,
+  "keywords": [
+   "irregular periods",
+   "excess facial hair",
+   "missed periods",
+   "weight gain with irregular periods",
+   "pcos"
+  ]
+ },
+ {
+  "name": "Gas & Bloating",
+  "causes": "Swallowing air, eating too fast, beans, cabbage and fizzy drinks, constipation, food intolerance.",
+  "avoid": "Fizzy drinks, chewing gum, too many beans, overeating, talking while eating.",
+  "eat": "Ginger tea, fennel seeds, carom seeds, peppermint tea, curd, papaya.",
+  "treat": "Walk gently after meals, drink warm water, massage the belly clockwise, try a knee-to-chest stretch.",
+  "medicine": "Simethicone (anti-gas tablet or drops)",
+  "lifestyle": "Eat slowly with your mouth closed, walk after meals and avoid carbonated drinks.",
+  "id": 21,
+  "keywords": [
+   "gas in stomach",
+   "bloated stomach",
+   "passing gas",
+   "stomach feels full and tight"
+  ]
+ },
+ {
+  "name": "Nausea / Vomiting",
+  "causes": "Stomach infection, food poisoning, acidity, migraine, motion, pregnancy, strong smells.",
+  "avoid": "Oily, spicy and heavy food, strong smells, lying flat after eating.",
+  "eat": "Small sips of water or ORS, ginger tea, toast, banana, plain rice.",
+  "treat": "Sip fluids slowly, rest sitting up, try ginger or lemon. See a doctor if vomiting lasts over 24 hours, has blood, or you cannot keep water down.",
+  "medicine": "ORS in small sips (anti-vomiting medicine only through a doctor)",
+  "lifestyle": "Eat small frequent meals, avoid strong smells and keep food fresh and hygienic.",
+  "id": 22,
+  "keywords": [
+   "feeling like vomiting",
+   "nausea",
+   "throwing up",
+   "queasy"
+  ]
+ },
+ {
+  "name": "Dehydration",
+  "causes": "Not drinking enough water, heat, sweating, fever, diarrhoea, vomiting.",
+  "avoid": "Too much tea, coffee, soda and alcohol; staying long in the sun.",
+  "eat": "Water, ORS, coconut water, buttermilk, lemon water, watermelon, cucumber.",
+  "treat": "Drink fluids regularly and rest in shade. Seek urgent care for confusion, no urine for 8 hours or fainting.",
+  "medicine": "ORS (oral rehydration solution)",
+  "lifestyle": "Carry a water bottle, drink before you feel thirsty and check urine colour (pale yellow is good).",
+  "id": 23,
+  "keywords": [
+   "very thirsty",
+   "dry mouth",
+   "dark urine",
+   "not drinking enough water",
+   "dry lips and tired"
+  ]
+ },
+ {
+  "name": "Dandruff",
+  "causes": "Dry scalp, yeast on the scalp, oily scalp, infrequent washing, stress.",
+  "avoid": "Sharing combs, very hot water on hair, heavy oils, scratching.",
+  "eat": "Foods with zinc and omega-3 (nuts, seeds), vegetables, curd, plenty of water.",
+  "treat": "Wash hair 2–3 times a week with anti-dandruff shampoo, massage the scalp and rinse well. See a dermatologist if severe or red.",
+  "medicine": "Anti-dandruff shampoo (ketoconazole or zinc pyrithione)",
+  "lifestyle": "Wash combs and pillow covers often, manage stress and avoid tight caps for long hours.",
+  "id": 24,
+  "keywords": [
+   "flaky scalp",
+   "white flakes in hair",
+   "itchy scalp",
+   "dandruff"
+  ]
+ },
+ {
+  "name": "Dry Skin",
+  "causes": "Dry weather, hot showers, harsh soaps, low water intake, ageing, eczema.",
+  "avoid": "Hot water baths, strong soaps, scrubbing, alcohol-based products.",
+  "eat": "Water, omega-3 foods, fruits, vegetables, nuts and healthy fats.",
+  "treat": "Apply moisturiser right after bathing, use lukewarm water and a gentle cleanser. See a doctor if cracked or very itchy.",
+  "medicine": "Fragrance-free moisturiser (not a medicine)",
+  "lifestyle": "Bathe less often in winter, drink more water and use sunscreen daily.",
+  "id": 25,
+  "keywords": [
+   "dry rough skin",
+   "flaky skin",
+   "tight skin",
+   "skin cracking in winter"
+  ]
+ },
+ {
+  "name": "Muscle Cramps",
+  "causes": "Dehydration, low sodium, potassium or magnesium, overexertion, long sitting, tight muscles.",
+  "avoid": "Sudden heavy exercise, dehydration, too much caffeine.",
+  "eat": "Banana, coconut water, ORS, milk, nuts, leafy greens.",
+  "treat": "Stretch and gently massage the muscle, apply a warm compress and drink fluids.",
+  "medicine": "No medicine usually needed; ORS or electrolytes if you sweated a lot",
+  "lifestyle": "Warm up before exercise, stay hydrated and stretch daily.",
+  "id": 26,
+  "keywords": [
+   "leg cramps",
+   "muscle spasm",
+   "sudden muscle tightening",
+   "calf cramp"
+  ]
+ },
+ {
+  "name": "Neck Pain",
+  "causes": "Poor posture, looking down at the phone, a bad pillow, stress, muscle strain.",
+  "avoid": "Long phone or laptop use, heavy bag on one shoulder, sudden jerks.",
+  "eat": "Water, calcium and vitamin D rich foods, turmeric milk.",
+  "treat": "Warm compress, gentle neck stretches and a supportive pillow. See a doctor for arm numbness or pain after an injury.",
+  "medicine": "Diclofenac gel (topical) or Paracetamol 500 mg",
+  "lifestyle": "Raise your screen to eye level, take breaks every 30 minutes and use a thin supportive pillow.",
+  "id": 27,
+  "keywords": [
+   "stiff neck",
+   "pain in neck",
+   "neck pain after sleeping",
+   "neck pain from phone"
+  ]
+ },
+ {
+  "name": "Eye Strain",
+  "causes": "Long screen time, less blinking, poor lighting, uncorrected vision.",
+  "avoid": "Reading in dim light, rubbing eyes, screens in the dark.",
+  "eat": "Carrots, leafy greens, eggs, fish, citrus fruits, water.",
+  "treat": "Follow the 20-20-20 rule: every 20 minutes look 20 feet away for 20 seconds. Blink often and adjust screen brightness.",
+  "medicine": "Lubricating eye drops (artificial tears)",
+  "lifestyle": "Reduce screen time, keep the screen an arm’s length away and get your eyes tested yearly.",
+  "id": 28,
+  "keywords": [
+   "tired eyes",
+   "eyes hurt after screen",
+   "blurry vision after computer",
+   "strain from phone"
+  ]
+ },
+ {
+  "name": "Red / Itchy Eyes",
+  "causes": "Allergy, dust, conjunctivitis (infection), dryness, contact lenses, lack of sleep.",
+  "avoid": "Rubbing eyes, makeup, contact lenses, sharing towels.",
+  "eat": "Water and vitamin A rich food (carrot, spinach, papaya).",
+  "treat": "Wash hands, use a cold compress and rinse with clean water. See a doctor if there is pus, pain, vision change or it lasts over 2 days.",
+  "medicine": "Lubricating eye drops (antibiotic drops only through a doctor)",
+  "lifestyle": "Do not share towels or makeup, wash your face daily and keep contact lenses clean.",
+  "id": 29,
+  "keywords": [
+   "red eyes",
+   "itchy eyes",
+   "watery eyes",
+   "eye discharge",
+   "burning eyes"
+  ]
+ },
+ {
+  "name": "Earache",
+  "causes": "Ear infection, cold, water in the ear, wax, tooth or throat problems.",
+  "avoid": "Putting buds or pins in the ear, water entering the ear, loud music.",
+  "eat": "Warm fluids, soft light food, water.",
+  "treat": "Warm compress on the outer ear, rest and keep the ear dry. See a doctor for discharge, fever or hearing loss.",
+  "medicine": "Paracetamol 500 mg",
+  "lifestyle": "Never put pins or buds in the ear, dry ears after bathing and keep headphone volume low.",
+  "id": 30,
+  "keywords": [
+   "ear pain",
+   "pain inside ear",
+   "blocked ear",
+   "ear feels full"
+  ]
+ },
+ {
+  "name": "Nosebleed",
+  "causes": "Dry air, nose picking, cold, injury, allergy, high blood pressure.",
+  "avoid": "Picking the nose, forceful blowing, hot dry rooms.",
+  "eat": "Vitamin C and K foods (citrus, leafy greens) and water.",
+  "treat": "Sit up, lean forward and pinch the soft part of the nose for 10 minutes. See a doctor if bleeding lasts over 20 minutes or follows an injury.",
+  "medicine": "None needed; a saline nasal spray keeps the nose moist",
+  "lifestyle": "Keep the air moist, trim your nails and avoid picking your nose.",
+  "id": 31,
+  "keywords": [
+   "bleeding from nose",
+   "blood from nose",
+   "nose bleeding"
+  ]
+ },
+ {
+  "name": "Hiccups",
+  "causes": "Eating fast, fizzy drinks, spicy food, sudden temperature change, excitement.",
+  "avoid": "Eating too fast, carbonated drinks, overeating.",
+  "eat": "Sip water slowly; a spoon of sugar or honey.",
+  "treat": "Hold your breath for 10 seconds, sip cold water slowly or breathe into a paper bag. See a doctor if they last over 48 hours.",
+  "medicine": "No medicine usually needed",
+  "lifestyle": "Eat slowly in small bites and avoid fizzy drinks.",
+  "id": 32,
+  "keywords": [
+   "hiccups",
+   "continuous hiccups",
+   "hiccuping"
+  ]
+ },
+ {
+  "name": "Mouth Ulcers",
+  "causes": "Cheek biting, stress, vitamin B12 or iron deficiency, spicy food, hormonal changes.",
+  "avoid": "Spicy, salty and sour food, hard-bristled brushes.",
+  "eat": "Curd, buttermilk, coconut water, banana and vitamin B rich food.",
+  "treat": "Rinse with warm salt water, apply gel and drink cool fluids. See a doctor if an ulcer lasts over 2 weeks.",
+  "medicine": "Choline salicylate or lidocaine mouth gel (like Zytee/Dologel)",
+  "lifestyle": "Brush gently with a soft brush, manage stress and eat enough vitamins.",
+  "id": 33,
+  "keywords": [
+   "mouth sores",
+   "painful ulcer in mouth",
+   "blister inside cheek",
+   "ulcer on tongue"
+  ]
+ },
+ {
+  "name": "Bad Breath",
+  "causes": "Poor oral hygiene, tongue coating, dry mouth, cavities, smoking, acidity, onion or garlic.",
+  "avoid": "Smoking, tobacco, skipping brushing, too much onion or garlic.",
+  "eat": "Water, crunchy fruits and vegetables, fennel seeds, cloves.",
+  "treat": "Brush twice daily, clean your tongue, floss, rinse after meals and see a dentist.",
+  "medicine": "Alcohol-free antiseptic mouthwash",
+  "lifestyle": "Replace your brush every 3 months, stay hydrated and visit a dentist every 6 months.",
+  "id": 34,
+  "keywords": [
+   "bad breath",
+   "mouth smell",
+   "smelly mouth"
+  ]
+ },
+ {
+  "name": "Menstrual Cramps",
+  "causes": "Uterine contractions, hormonal changes, sometimes endometriosis or fibroids.",
+  "avoid": "Too much caffeine, salty food, smoking.",
+  "eat": "Warm fluids, ginger tea, banana, leafy greens, nuts and plenty of water.",
+  "treat": "Hot water bag on the lower belly, rest, light walking or yoga. See a doctor if pain is severe or bleeding is very heavy.",
+  "medicine": "Paracetamol 500 mg",
+  "lifestyle": "Exercise regularly, sleep well, reduce stress and track your cycle.",
+  "id": 35,
+  "keywords": [
+   "period pain",
+   "cramps during periods",
+   "lower abdomen pain during period",
+   "painful periods"
+  ]
+ },
+ {
+  "name": "Motion Sickness",
+  "causes": "A mismatch between eye and inner ear signals while travelling.",
+  "avoid": "Reading or phone use in a moving vehicle, heavy or oily meals before travel.",
+  "eat": "Light snacks, ginger candy, dry biscuits, water.",
+  "treat": "Sit in the front seat, look at the horizon, get fresh air and close your eyes if needed.",
+  "medicine": "Dimenhydrinate (like Avomine); causes drowsiness",
+  "lifestyle": "Eat light before travel, choose seats with less motion and take breaks on long trips.",
+  "id": 36,
+  "keywords": [
+   "sick while travelling",
+   "vomiting in car",
+   "dizzy on bus",
+   "nausea on journey"
+  ]
+ },
+ {
+  "name": "Sunburn",
+  "causes": "Too much UV exposure without protection.",
+  "avoid": "Midday sun (11 am–4 pm), peeling skin, tight clothing.",
+  "eat": "Water, watermelon, cucumber, coconut water.",
+  "treat": "Take a cool shower, apply aloe vera gel and wear loose cotton. See a doctor for blisters over a large area or fever.",
+  "medicine": "Aloe vera gel or calamine lotion",
+  "lifestyle": "Apply SPF 30+ sunscreen every 2–3 hours and cover up or wear a hat outdoors.",
+  "id": 37,
+  "keywords": [
+   "red burnt skin from sun",
+   "painful skin after sun",
+   "skin peeling after sun",
+   "sun burn"
+  ]
+ },
+ {
+  "name": "Minor Burns",
+  "causes": "Hot water, steam, hot utensils or oil, sparks.",
+  "avoid": "Ice directly on skin, butter, toothpaste, popping blisters.",
+  "eat": "Water and protein-rich food to help healing.",
+  "treat": "Hold under cool running water for 15–20 minutes and cover with a clean cloth. Go to a hospital for large, deep, face or genital burns.",
+  "medicine": "Burn ointment (like silver sulfadiazine) on a pharmacist’s advice",
+  "lifestyle": "Handle hot items carefully, turn pan handles inward and keep children away from the kitchen.",
+  "id": 38,
+  "keywords": [
+   "burn from hot water",
+   "burnt finger",
+   "skin burn",
+   "blister from burn"
+  ]
+ },
+ {
+  "name": "Minor Cuts & Wounds",
+  "causes": "Sharp objects, falls and scrapes.",
+  "avoid": "Touching the wound with dirty hands, leaving dirt in the wound.",
+  "eat": "Protein, vitamin C and zinc rich food support healing.",
+  "treat": "Wash with clean water and mild soap, press with a clean cloth to stop bleeding, apply antiseptic and cover. See a doctor for deep wounds, bleeding that won’t stop, or injury from a rusty object (tetanus shot).",
+  "medicine": "Povidone-iodine antiseptic solution",
+  "lifestyle": "Keep a first-aid kit at home and your tetanus vaccination up to date.",
+  "id": 39,
+  "keywords": [
+   "small cut",
+   "bleeding wound",
+   "scrape",
+   "minor injury",
+   "graze"
+  ]
+ },
+ {
+  "name": "Insect Bites",
+  "causes": "Mosquitoes, ants, bees, bed bugs and other insects.",
+  "avoid": "Scratching the bite, strong perfumes that attract insects.",
+  "eat": "Water; no special diet needed.",
+  "treat": "Wash with soap, apply a cold compress and calamine lotion. Seek emergency help for breathing trouble or face swelling.",
+  "medicine": "Calamine lotion (or Cetirizine 10 mg if very itchy)",
+  "lifestyle": "Use mosquito nets or repellent, wear full sleeves at dusk and do not let water stand around.",
+  "id": 40,
+  "keywords": [
+   "mosquito bite",
+   "insect bite",
+   "itchy bite",
+   "swelling from bite",
+   "bee sting"
+  ]
+ },
+ {
+  "name": "Muscle Sprain",
+  "causes": "Twisting or overstretching a joint or muscle during exercise, a fall or a sudden movement.",
+  "avoid": "Walking on it, heat in the first 48 hours, massage right after injury.",
+  "eat": "Protein, vitamin C, turmeric milk and plenty of water.",
+  "treat": "RICE: Rest, Ice (15 minutes at a time), Compression bandage, Elevation. See a doctor if you can’t bear weight or swelling is severe.",
+  "medicine": "Diclofenac gel (topical) or Paracetamol 500 mg",
+  "lifestyle": "Warm up before exercise, wear proper shoes and strengthen your muscles.",
+  "id": 41,
+  "keywords": [
+   "twisted ankle",
+   "sprain",
+   "swollen ankle",
+   "pain after twisting",
+   "pulled muscle"
+  ]
+ },
+ {
+  "name": "Dizziness",
+  "causes": "Low blood pressure, dehydration, low blood sugar, anaemia, standing up suddenly, ear problems, anxiety.",
+  "avoid": "Standing up quickly, skipping meals, dehydration, too much caffeine.",
+  "eat": "Water, ORS, regular meals, iron-rich food, a salty snack if BP is low.",
+  "treat": "Sit or lie down, drink fluids and rise slowly. See a doctor right away if dizziness comes with chest pain, weakness or trouble speaking.",
+  "medicine": "ORS (no other medicine until the cause is found)",
+  "lifestyle": "Eat on time, stay hydrated, get up slowly and check your BP and haemoglobin.",
+  "id": 42,
+  "keywords": [
+   "feeling dizzy",
+   "lightheaded",
+   "spinning feeling",
+   "feeling faint",
+   "blackout feeling"
+  ]
+ },
+ {
+  "name": "Anxiety",
+  "causes": "Stress, overthinking, caffeine, lack of sleep, health or life worries, hormonal changes.",
+  "avoid": "Too much caffeine, alcohol, late-night phone use, isolating yourself.",
+  "eat": "Fruits, nuts, whole grains, omega-3 foods, chamomile or green tea.",
+  "treat": "Slow deep breathing (inhale 4 seconds, exhale 6), grounding (name 5 things you see), walking and talking to someone. Seek professional help if it affects daily life.",
+  "medicine": "None; medicines only through a doctor",
+  "lifestyle": "Exercise, keep a routine, limit news and talk to friends, family or a counsellor.",
+  "id": 43,
+  "keywords": [
+   "feeling anxious",
+   "nervous",
+   "racing heart from worry",
+   "panic",
+   "excessive worry"
+  ]
+ },
+ {
+  "name": "Loss of Appetite",
+  "causes": "Stress, illness, infection, medicines, low mood, constipation, heat.",
+  "avoid": "Junk snacks before meals, poor sleep, drinking lots of fluids before eating.",
+  "eat": "Small frequent meals, soups, fruits, nuts, lemon water, curd, ginger.",
+  "treat": "Eat favourite healthy food, eat with family and take a light walk before meals. See a doctor if it lasts over 2 weeks or you lose weight.",
+  "medicine": "None; find the cause first",
+  "lifestyle": "Keep fixed meal times, make meals colourful and manage stress.",
+  "id": 44,
+  "keywords": [
+   "not feeling hungry",
+   "no appetite",
+   "do not want to eat",
+   "skipping meals"
+  ]
+ },
+ {
+  "name": "Overweight",
+  "causes": "Excess calories, low activity, poor sleep, stress, genetics, hormonal issues (thyroid, PCOS).",
+  "avoid": "Sugary drinks, junk and fried food, late-night eating, skipping breakfast.",
+  "eat": "Vegetables, fruits, dal, sprouts, whole grains, curd and plenty of water.",
+  "treat": "Eat smaller portions, walk 30–45 minutes daily and sleep 7–8 hours. Aim for slow loss and avoid crash diets; consult a doctor or dietitian.",
+  "medicine": "None; no weight-loss pills without a doctor",
+  "lifestyle": "Track your meals, move more through the day, sleep well and do not skip meals.",
+  "id": 45,
+  "keywords": [
+   "weight gain",
+   "belly fat",
+   "want to lose weight",
+   "obesity",
+   "overweight"
+  ]
+ },
+ {
+  "name": "Cracked Heels",
+  "causes": "Dry skin, standing long, open footwear, low moisture, fungal infection, diabetes.",
+  "avoid": "Walking barefoot, hot water, harsh soaps.",
+  "eat": "Water, healthy fats and vitamin E foods (nuts, seeds).",
+  "treat": "Soak feet in lukewarm water for 10 minutes, scrub gently, then apply a thick foot cream and wear cotton socks. See a doctor if cracks are deep or bleeding.",
+  "medicine": "Urea-based foot cream",
+  "lifestyle": "Moisturise your feet nightly, wear closed shoes and keep feet clean and dry.",
+  "id": 46,
+  "keywords": [
+   "cracked heels",
+   "dry heels",
+   "painful heel cracks",
+   "rough feet"
+  ]
+ },
+ {
+  "name": "Blocked Nose",
+  "causes": "Cold, allergy, sinus infection, dust, dry air.",
+  "avoid": "Dust, smoke, cold drinks.",
+  "eat": "Warm fluids, soup, ginger tea, tulsi.",
+  "treat": "Steam inhalation, saline nasal rinse and sleeping with your head raised. See a doctor if it lasts over 10 days or there is facial pain.",
+  "medicine": "Saline nasal spray",
+  "lifestyle": "Keep rooms clean, add moisture to dry air and avoid triggers like dust and smoke.",
+  "id": 47,
+  "keywords": [
+   "stuffy nose",
+   "nose blocked",
+   "difficulty breathing through nose",
+   "nasal congestion"
+  ]
+ },
+ {
+  "name": "Chapped Lips",
+  "causes": "Dry weather, dehydration, lip licking, sun, vitamin deficiency.",
+  "avoid": "Licking lips, peeling the skin, harsh lip products.",
+  "eat": "Water, vitamin B rich food and fruits.",
+  "treat": "Apply lip balm often, keep lips moist and do not pick the skin.",
+  "medicine": "Petroleum jelly or lip balm with SPF",
+  "lifestyle": "Drink more water, protect lips from the sun and stop licking them.",
+  "id": 48,
+  "keywords": [
+   "dry lips",
+   "cracked lips",
+   "peeling lips",
+   "chapped lips"
+  ]
+ },
+ {
+  "name": "Body Ache",
+  "causes": "Viral infection, flu, fatigue, overexertion, dehydration, vitamin D deficiency.",
+  "avoid": "Overexertion, dehydration, skipping rest.",
+  "eat": "Warm soups, turmeric milk, fruits, water and protein.",
+  "treat": "Rest, take a warm bath, stretch gently and drink fluids. See a doctor if it comes with high fever or lasts over a week.",
+  "medicine": "Paracetamol 500 mg",
+  "lifestyle": "Rest enough, get morning sunlight, stay hydrated and exercise lightly.",
+  "id": 49,
+  "keywords": [
+   "whole body pain",
+   "body pain",
+   "aching muscles",
+   "body aches and tired"
+  ]
+ },
+ {
+  "name": "Burning Urination",
+  "causes": "Urinary tract infection (UTI), dehydration, kidney stones, other infections, irritants.",
+  "avoid": "Holding urine, caffeine, spicy food, sugary drinks.",
+  "eat": "Plenty of water, coconut water, barley water and curd.",
+  "treat": "Drink more water and see a doctor soon for a urine test, as UTIs usually need antibiotics. Seek urgent care for fever, back pain or blood in urine.",
+  "medicine": "None; needs a doctor’s test and prescription",
+  "lifestyle": "Drink enough water, urinate regularly, keep the area clean and wear cotton underwear.",
+  "id": 50,
+  "keywords": [
+   "burning while urinating",
+   "pain during urination",
+   "frequent urination",
+   "urine infection",
+   "urgent urination"
+  ]
+ }
+]

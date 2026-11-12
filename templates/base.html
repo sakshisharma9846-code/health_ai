@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}Health Guide{% endblock %}</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"></head>
+<body>
+<header class="top"><a class="brand" href="{{ url_for('home') }}">🌿 Health Guide</a>
+<nav>{% if session.user %}<a href="{{ url_for('problems') }}">Problems</a><a href="{{ url_for('checker') }}">Symptom Checker (ML)</a><a href="{{ url_for('chat') }}">AI Assistant</a><a href="{{ url_for('logout') }}">Logout ({{ session.user.name }})</a>{% endif %}</nav></header>
+<main class="w">
+{% for m in get_flashed_messages() %}<div class="err">{{ m }}</div>{% endfor %}
+{% block content %}{% endblock %}
+<div class="warn">⚠️ This website is for information only and is not a substitute for a doctor. Always consult a doctor or pharmacist before taking any medicine.</div>
+</main></body></html>

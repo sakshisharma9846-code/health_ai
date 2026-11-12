@@ -1,0 +1,17 @@
+{% extends "base.html" %}{% block content %}
+<div class="card"><h2>AI Health Assistant</h2>
+<p>{% if ai_on %}Powered by Claude (AI).{% else %}Offline mode: answers come from the ML model. Set ANTHROPIC_API_KEY to enable the full AI assistant.{% endif %}</p>
+<div id="log"></div>
+<form id="f" style="display:flex;gap:8px"><input id="t" placeholder="Ask a health question…" autocomplete="off" required><button style="margin:0">Send</button></form></div>
+<script>
+var hist=[],log=document.getElementById("log");
+function add(c,t){var d=document.createElement("div");d.className="m "+c;d.textContent=t;log.appendChild(d);log.scrollTop=log.scrollHeight}
+add("a","Hello! Tell me what problem you are facing and I will share general information.");
+document.getElementById("f").onsubmit=function(e){e.preventDefault();var i=document.getElementById("t"),m=i.value.trim();if(!m)return;
+add("u",m);i.value="";add("a","…");
+fetch("/api/chat",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({message:m,history:hist})})
+.then(function(r){return r.json()}).then(function(d){var r=d.reply.replace(/\*\*/g,"");log.lastChild.textContent=r;
+hist.push({role:"user",content:m},{role:"assistant",content:r})})
+.catch(function(){log.lastChild.textContent="Something went wrong. Please try again."})};
+</script>
+{% endblock %}
